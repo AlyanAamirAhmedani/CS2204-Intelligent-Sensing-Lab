@@ -1,0 +1,25 @@
+.contact-table{
+    clear: both;
+    max-width: 80%;
+    margin: 0 auto;
+    border-color: skyblue;
+    border-width: 10px;
+    text-align: center;
+}
+tr:nth-child(even){     /** if space b/w tr & ":" does columns instead of rows **/
+    background-color: lightcyan;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+
+th, td{
+    border: 2px solid skyblue;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

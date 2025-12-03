@@ -1,0 +1,57 @@
+.about-block{
+    border: 2px solid #2c3e50;
+    max-width: 80%;
+    float:left;
+    width:48%;
+    margin-right: 2%;
+    box-shadow: blue 0px 10px 20px;
+}
+
+.about-image{
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+.table-block{
+    float: right;
+    max-width: 100%;
+    margin: 0 auto;
+    border-color: skyblue;
+    border-width: 10px;
+    width:48%;
+    overflow-x: auto;
+}
+
+tr:nth-child(even){     /** if space b/w tr & ":" does columns instead of rows **/
+    background-color: lightcyan;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+.table-caption{
+    font-weight: bold;
+    background-color: skyblue;
+    text-align: center;
+}
+
+th, td{
+    border: 2px solid skyblue;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+}
+
+.data-row:hover{        /** If space b/w tr & ":" it individual cells instead of whole row **/
+    background-color: yellow;
+}
+
+/* Or if you want to target specific elements */
+ 
+.about-block p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+

@@ -1,0 +1,20 @@
+h2, h1{
+    text-align: center;
+}
+
+.content {
+    margin: 2%;
+}
+
+dt,h1 {
+    left: 1%;
+    padding: 5px 0;
+}
+
+dt {
+    margin-top: 2%;
+}
+
+dd {
+    margin-left: 0%;
+}

@@ -1,0 +1,56 @@
+.videos{
+    max-width: 48%;
+    float: right;
+    clear:both;
+    height: auto;
+    width: 400px;
+    margin: 0px;
+    padding-right: 10%
+
+}
+.heading1{
+    max-width: 48%;
+    margin-right:4%;
+    float: left;
+    margin: auto;
+    padding-left: 10%;
+    margin-top: 10px;
+    clear:both;
+}
+
+.heading2{
+    max-width: 48%;
+    margin-right:4%;
+    float: left;
+    margin: auto;
+    padding-left: 10%;
+    margin-top: 10px;
+    clear:both;
+}
+
+.info-table{
+    clear: both;
+    max-width: 80%;
+    margin: 0 auto;
+    border-color: skyblue;
+    border-width: 10px;
+    text-align: center;
+}
+tr:nth-child(even){     /** if space b/w tr & ":" does columns instead of rows **/
+    background-color: lightcyan;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+
+th, td{
+    border: 2px solid skyblue;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+}
+
+.table-header{
+    background-color: skyblue !important;
+}

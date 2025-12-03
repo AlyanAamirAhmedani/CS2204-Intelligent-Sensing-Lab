@@ -1,0 +1,25 @@
+.welcome-block{
+    background-color: lightblue;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.left-col{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    box-shadow: blue 0px 10px 20px;
+}
+
+.right-col{
+    width: 48%;
+    float: right;
+}
+
+.map-img{
+    max-width: 100%
+}
+
+.apply-img{
+    max-width: 100%;
+}

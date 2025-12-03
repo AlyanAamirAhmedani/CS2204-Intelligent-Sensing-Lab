@@ -1,0 +1,64 @@
+.visit-block{
+    background-color: lightblue;
+    text-align: center;
+}
+.visit-block li {
+    list-style-type: none !important; 
+    padding-left: 10px !important;
+}
+
+.visit-block > ul {
+    list-style-type: disc;
+}
+
+.map-location-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.location-image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    width: 50%;
+}
+
+.location-text{
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 2;
+}
+
+.map-location-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.registration-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.registration{
+    clear: both;
+}
+
+.registration h2{
+    text-align: center;
+    padding: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    border-radius: 4px;
+    padding: 1.5%;
+    margin: 0.2%;
+    position: relative;
+}

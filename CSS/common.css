@@ -1,0 +1,70 @@
+header{
+    background-color: lightblue;
+    text-align: center;
+    
+}
+.logo{
+    max-width: 100%;
+}
+*:not(ul):not(ol):not(li){
+   padding: 0px;
+    margin: 0px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a:active {
+    color: red;
+}
+
+.nav-list a:visited {
+    color: lightblue;
+}
+.nav-list a:hover{
+    color: yellow;
+}
+
+.site-nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+
+}
+
+.site-nav{
+    background-color: #2c3e50 ;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+    p{
+        color:white;
+    }
+    clear: both;
+    background:linear-gradient(white, lightblue);
+}
+
+.welcome-block ul {
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+    padding-left: 10px !important;
+}
+
+.welcome-block li {
+    margin-bottom: 10px !important;
+}
+
+.nav-span{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.footer-logo{
+    max-width: 100%;
+    
+}

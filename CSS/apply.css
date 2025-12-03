@@ -1,0 +1,140 @@
+h2 {
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 1%;
+}
+
+h3 {
+    line-height: 1.6;
+}
+
+div#main {
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid #000000;
+}
+
+/* ➡️ FINAL FIX: Parent container setup for tight left-alignment. */
+#Optical-Sensing,
+#Bio-Sensing,
+#Smart-Sensing {
+    padding: 10px 0; 
+    width: 100%; 
+    overflow: auto; 
+    font-size: 0; /* CRITICAL: Collapses the whitespace gap */
+    text-align: left; /* Ensures groups pack tightly to the left */
+    margin-bottom: 20px; 
+}
+
+
+/* * TAB HEADERS: Styling for the clickable division titles */
+#Optical,
+#Bio,
+#Smart {
+    width: 23.5%;
+    text-align: center;
+    background-color: #64bffc;
+    display: inline-block;
+    padding: 0 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+#Optical:hover,
+#Bio:hover,
+#Smart:hover {
+    background-color: white;
+    color: black;
+}
+
+/* * GROUP CONTAINERS: Using inline-block */
+div#Optical-Sensing > div, 
+div#Bio-Sensing > div, 
+div#Smart-Sensing > div {
+    margin: 5px; /* Fixed margin for small, uniform space */
+    display: inline-block; 
+    width: 30%; /* Safe width to fit three items */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top; 
+    
+    /* Resetting font size for content visibility */
+    font-size: 16px; 
+    box-sizing: border-box; /* Includes padding/border in the 30% width */
+}
+
+/* Targeting the hover effect on the inner group <div>s */
+div#Optical-Sensing > div:hover, 
+div#Bio-Sensing > div:hover, 
+div#Smart-Sensing > div:hover {
+    background-color: rgb(142, 213, 255);
+    box-shadow: rgba(0, 0, 0, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+/* Targeting ONLY the rank buttons using the new class */
+button.rank-btn {
+    padding: 1%;
+    margin: 1%;
+}
+
+/* Summary Table Styling */
+
+div#Summary table {
+    width: 30%; 
+}
+
+div#Summary th {
+    text-align: center;
+}
+
+div#Summary {
+    text-align: left !important;
+    line-height: 1.6;
+    padding-left: 1%;
+    margin-top: 10px; 
+}
+
+div#Summary>h2,
+div#Summary>h3 {
+    clear: both; 
+    text-align: left;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+/* Styles for table borders */
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5%;
+  line-height: 1.6;
+}
+
+thead {
+  background-color: #a3e8ffcd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #58b7ff89;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: yellow;
+}
+
+/* Target the final submit/reset buttons */
+div#buttons button {
+    margin: 0.5% 0.5%;
+    padding: 0.5% 1.5%;
+    border-radius: 4px;
+}
